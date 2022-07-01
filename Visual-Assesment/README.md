@@ -7,6 +7,26 @@ Visual assessment can be directed or non-directed.
 - **Non-directed** visual assessment is when you look at different pieces of tables, such as scrolling aimlessly and stumbling upon issues, then dialing in on something once you have more of a clue of what issue you've spotted. At that point, you can use more pinpointed assessments whether visual or programmatic.
 
 
+## Data Quality Dimensions 
+
+Data quality dimensions help guide your thought process while assessing and also cleaning. The four main data quality dimensions are:
+
+
+1. **Completeness**: do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?
+2. **Validity**: we have the records, but they're not valid, i.e., they don't conform to a defined schema. A schema is a defined set of rules for data. These rules can be real-world constraints (e.g. negative height is impossible) and table-specific constraints (e.g. unique key constraints in tables).
+3. **Accuracy**: inaccurate data is wrong data that is valid. It adheres to the defined schema, but it is still incorrect. Example: a patient's weight that is 5 lbs too heavy because the scale was faulty.
+4. **Consistency**: inconsistent data is both valid and accurate, but there are multiple *correct* ways of referring to the same thing. Consistency, i.e., a standard format, in columns that represent the same data across tables and/or within tables is desired.
+
+Regarding the other data quality research, there exists additional dimensions that are specific cases of these four dimensions listed above. Example: currency, defined as follows: the degree to which data is current with the world that it models. Currency can measure how up-to-date data is. Currency is a specific case of accuracy in data in the sense that out-of-date data is (usually) valid but wrong. In other words, our definition of accuracy can include currency.
+
+
+## **More Information**
+
+Here are some of the sources that illustrate the dimensions that define data quality.
+
+- Here is a chapter from the book Data Strategy, about the four categories of data quality rules: [**How to Improve Data Quality**](http://www.informit.com/articles/article.aspx?p=399325&seqNum=3)
+- This TechTarget blog post provides information on the definition of data quality as it relates. todat management and why it is important: [**Data Quality**](https://classroom.udacity.com/nanodegrees/nd002-alg-t2/parts/cd0015/modules/d9096168-9307-4d7f-8731-f07fa3cfbca4/lessons/ls2230/concepts/bd1b6c80-586b-4e5a-bbfd-1fb9decd7a38)
+- Learn more about how to measure the quality of data in this YouTube video on [**The Seven Dimensions of Data Quality**](https://www.youtube.com/watch?v=dPsx8_Fcr-U), by Anish Raivadera.
 ## 1. Visual Assessment : Acquaint Yourself
 
 Here we will be assessing or data sets visually. 
